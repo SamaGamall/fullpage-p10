@@ -10,21 +10,21 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 const Navbarinside = () => {
   function myFunction() {
     var x = document.getElementById("myTopnav");
-    if (x.className === "icon-bar") {
+    if (x.className === "iconbar") {
       x.className += " responsive";
     } else {
-      x.className = "icon-bar";
+      x.className = "iconbar";
     }
   }
   return (
   
-    <div className="icon-bar" id="myTopnav">
+    <div className="iconbar" id="myTopnav">
     
-      <a href='' className="leftsidenav">home</a>
+      <Link href='' className="leftsidenav">home</Link>
       
-      <a href="" className="leftsidenav" >available donors</a>
-      <a href=""  className="leftsidenav" > donor center location</a>
-      <a href=""  className="leftsidenav" ><NotificationsIcon/>private blood request</a>
+      <Link href="" className="leftsidenav" >available donors</Link>
+      <Link href=""  className="leftsidenav" > donor center location</Link>
+      <Link href=""  className="leftsidenav" ><NotificationsIcon/>private blood request</Link>
     
     <Link href="" className='icon3' to="/profile"><PersonIcon/></Link> 
     <a href="javascript:void(0);" className="icon4" onClick={myFunction}>
