@@ -67,18 +67,18 @@ const Editeprofile = () => {
                   placeholder="Enter phone number"
                 />
               </div>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+            </div><div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
               <div className="form-group">
-                <label htmlFor="website">Website URL</label>
+                <label htmlFor="blood">Blood Type</label>
                 <input
-                  type="url"
+                  type="text"
                   className="form-control"
-                  id="website"
-                  placeholder="Website url"
+                  id="blood"
+                  placeholder="Enter blood type"
                 />
               </div>
             </div>
+            
           </div>
           <div className="row gutters">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -117,17 +117,7 @@ const Editeprofile = () => {
                 />
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-              <div className="form-group">
-                <label htmlFor="zIp">Zip Code</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="zIp"
-                  placeholder="Zip Code"
-                />
-              </div>
-            </div>
+            
           </div>
           <div className="row gutters">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
