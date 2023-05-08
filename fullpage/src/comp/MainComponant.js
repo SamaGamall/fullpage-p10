@@ -32,18 +32,7 @@ const MainComponant = () => {
           You can usually donate blood two to three times during the year, every
           16 weeks so that there is enough time period for your blood to build
           up its iron stock between each donation.
-          <span>Choose Your Blood Type</span>
         </p>
-        <ul className="acceptable__header--menu">
-          <li data-target="#Type_1">A+</li>
-          <li data-target="#Type_2 ">A-</li>
-          <li data-target="#Type_3 ">AB+</li>
-          <li data-target="#Type_4 ">AB-</li>
-          <li data-target="#Type_5 ">O+</li>
-          <li data-target="#Type_6 ">O-</li>
-          <li data-target="#Type_7 ">B+</li>
-          <li data-target="#Type_8 ">B-</li>
-        </ul>
       </div>
       <div className="acceptable__main">
         {/* blood type A+ */}
@@ -85,11 +74,10 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+        
         </div>
         {/* blood type A- */}
+
         <div className="main-grid" id="Type_2" data-target-content="">
           <div className="content-desc">
             <h2 className="content-desc__header">A-</h2>
@@ -128,11 +116,10 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+          
         </div>
         {/* blood type Ab+ */}
+        
         <div className="main-grid" id="Type_3" data-target-content="">
           <div className="content-desc">
             <h2 className="content-desc__header">AB+</h2>
@@ -162,10 +149,9 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+        
         </div>
+        
         {/* blood type Ab- */}
         <div className="main-grid" id="Type_4" data-target-content="">
           <div className="content-desc">
@@ -200,10 +186,9 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="../images/bloodType.png" alt="acceptable" />
-          </div>
+          
         </div>
+        
         {/* blood type o+ */}
         <div className="main-grid" id="Type_5" data-target-content="">
           <div className="content-desc">
@@ -242,10 +227,9 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+          
         </div>
+        
         {/* blood type o- */}
         <div className="main-grid" id="Type_6" data-target-content="">
           <div className="content-desc">
@@ -280,10 +264,9 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+        
         </div>
+        
         {/* blood type B+ */}
         <div className="main-grid" id="Type_7" data-target-content="">
           <div className="content-desc">
@@ -322,10 +305,9 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+        
         </div>
+        
         {/* blood type B- */}
         <div className="main-grid" id="Type_8" data-target-content="">
           <div className="content-desc">
@@ -364,9 +346,7 @@ const MainComponant = () => {
               </ul>
             </div>
           </div>
-          <div className="content-img">
-            <img src="./images/bloodType.png" alt="acceptable" />
-          </div>
+          
         </div>
       </div>
     </div>

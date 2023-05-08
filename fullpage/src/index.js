@@ -17,6 +17,7 @@ import Popper from 'popper.js';
 
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import Userprofile from "./comp/Userprofile";
+import Donationlocation from "./pages/donationlocation";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +38,11 @@ const router = createBrowserRouter([
   {
     path: "/editep",
     element: <Editep/>,
+  
+  },
+  {
+    path: "/donationlocation",
+    element: <Donationlocation/>,
   
   },
 

@@ -24,7 +24,7 @@ const Header = () => {
       <Link className="active" style={{ color: "black" }}>
         home
       </Link>
-      <Link className="Mainlink" style={{ color: "black" }}>
+      <Link className="Mainlink" to="/donationlocation " style={{ color: "black" }}>
         Donor Center Location
       </Link>
       <Link className="Mainlink" style={{ color: "black" }}>
